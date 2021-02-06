@@ -10,6 +10,7 @@
             v-model="query"
             @keypress="fetchWeather"
         />
+
       </div>
 
       <div class="weather-wrap" v-if="typeof weather.main != 'undefined'">
